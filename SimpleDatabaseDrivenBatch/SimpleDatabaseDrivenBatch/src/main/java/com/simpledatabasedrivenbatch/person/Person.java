@@ -57,8 +57,13 @@ public class Person {
 	}
 	
 	public void plusHight(Double extraHight){
-		this.hight = getHight() + extraHight;
+		setHight(getHight() + extraHight);
 		
+	}
+	
+	public boolean newPerson(){
+		boolean newPerson = this.id == null;
+		return newPerson;
 	}
 
 	@Override
