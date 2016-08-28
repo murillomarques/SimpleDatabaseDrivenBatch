@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.PropertySource;
 
 @Configuration
-@ComponentScan(basePackages ="com.simpledatabasedrivenbatch.dao")
+@ComponentScan(basePackages ="com.simpledatabasedrivenbatch.person")
 @Import(DataSourceAutoConfiguration.class)
 @PropertySource("classpath:application.properties")
 public class SimpleDatabaseDrivenBatchConfig {
